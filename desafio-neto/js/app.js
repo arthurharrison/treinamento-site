@@ -1,6 +1,6 @@
 const xhr = new XMLHttpRequest();
-const PRIV_KEY = 'YOUR_PRIV_KEY';
-const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+const PRIV_KEY = 'xxxx';
+const PUBLIC_KEY = 'xxxx';
 const ts = new Date().getTime();
 const hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
 const url = 'https://gateway.marvel.com:443/v1/public/characters?name=';
@@ -20,8 +20,7 @@ document.getElementById("btn").onclick = () => {
         document.getElementById('shower').innerHTML = '';
         document.getElementById('charname').innerHTML = text.data.results[0].name;
     };
-    
+
     xhr.send(null);
     document.getElementById('cardDead').className = 'card'
 }
-
