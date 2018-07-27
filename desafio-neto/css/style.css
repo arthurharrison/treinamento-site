@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.background-color{
+    background-color: #d9d9d9;
+    text-align: center;
+}
+.topnav {
+    background-color: #ffffff;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.topnav a {
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: arial;
+}
+.topnav a:hover {
+    color:green;
+}
