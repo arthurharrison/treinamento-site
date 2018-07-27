@@ -8,17 +8,47 @@
 .topnav {
     background-color: #ffffff;
     top: 0;
+    height:40px;
     width: 100%;
     overflow: hidden;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
 }
-.topnav a {
+.title {
     color: red;
     text-align: center;
+    transition: 1s;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
-    font-family: arial;
+    font-family: Verdana;
 }
-.topnav a:hover {
+.title:hover {
     color:green;
+}
+#cardDead{
+    visibility: hidden;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+    transition: 0.3s;
+    visibility: visible;
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 450px;
+    text-align: center;
+    font-family: arial;
+    margin:auto;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+#coverpic{
+    margin: auto;
+    border-radius: 3px;
+}
+#charname{
+    padding-top: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
 }
