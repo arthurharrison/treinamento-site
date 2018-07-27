@@ -1,6 +1,6 @@
 const xhr = new XMLHttpRequest();
-const PRIV_KEY = 'xxx';
-const PUBLIC_KEY = 'xxx';
+const PRIV_KEY = 'YOUR_PRIV_KEY';
+const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
 const ts = new Date().getTime();
 const hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
 const url = 'https://gateway.marvel.com:443/v1/public/characters?name=';
