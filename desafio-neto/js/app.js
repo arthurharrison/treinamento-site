@@ -6,8 +6,8 @@ const hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
 const url = 'https://gateway.marvel.com:443/v1/public/characters?name=';
 
 function addPic(pic,text){
-    document.getElementById('log').innerHTML += "<img src='"+pic+ '/portrait_uncanny.jpg' +"'class='cardanimation'id='coverpic'></img>";
-    document.getElementById('log').innerHTML += "<a id='charname'>"+text+"</a>";
+    document.getElementById('log').innerHTML += "<img src='"+pic+ '/portrait_uncanny.jpg' +"'class='cardanimation'id='coverpic'></img>"; //"<div class='hist'><br><img src='"+pic+ '/portrait_uncanny.jpg' +"'class='cardanimation'id='coverpic'></img>";
+    document.getElementById('log').innerHTML += "<a id='charname'>"+text+"</a>";//</div>";
     
 }
 
