@@ -9,7 +9,7 @@
     background-size: cover;
 }
 .topnav {
-    background-color: #ed1d24;
+    background: #ed1d24;
     top: 0;
     height:40px;
     width: 100%;
@@ -17,7 +17,7 @@
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
 }
 .botnav {
-    background-color: #003f98;
+    background: #003f98;
     bottom: 0;
     border: 2px solid rgba(0, 0, 0, 0.411);
     height:40px;
