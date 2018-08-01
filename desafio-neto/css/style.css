@@ -7,6 +7,7 @@
     height: 100%;
     text-align: center;
     background-size: cover;
+    overflow-y: hidden;
 }
 .topnav {
     background: #ed1d24;
@@ -79,6 +80,7 @@
     display:block;
 
 }
+
 .hist{
   display: inline-block;
   height:490px;

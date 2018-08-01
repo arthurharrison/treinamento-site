@@ -11,10 +11,10 @@
 <body class="background-color">
     <div class="topnav">
         <img src='https://logodownload.org/wp-content/uploads/2017/05/marvel-logo.png' height ='40px' width = '100px' class='logo'></img>
-        <a class='title'>Desafio Marvel de Prof. Neto </a>
+        <a onclick="getData(this)" class='title' data-sft="anchorBRBR" >Desafio Marvel de Prof. Neto </a>
     </div>
     <br><br>
-    <form action="#" class="hero-box">
+    <form action="#" class="hero-box netinho">
         <input type="text" placeholder="Character Name" id = "txt" />
         <button type="submit" id="btn">Click Here</button>
         <p id='shower'>Please Type a Character Name</p>
@@ -28,11 +28,16 @@
         <p id='charname'></p>
         -->
     </div>
-        
+    
     <div class="botnav">
-        <a class='bottext'>DC É Superior</a>
+        <a onclick="changer()" class='bottext'>DC É Superior</a>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
     <script src="js/app.js"></script>
 </body>
+<script type="text/javascript">
+  const getData = e => {
+    console.log(e.getAttribute("data-sft"));
+  }
+</script>
 </html>
