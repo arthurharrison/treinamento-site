@@ -47,13 +47,19 @@
 .title:hover {
     color:green;
 }
+.logger{
+  width: 100%;
+  height: 49rem;
+  margin:auto;
+  display:block;
+}
 #log{
     background: rgb(255,209,166);
     background: linear-gradient(0deg, rgba(255,209,166,0.6) 0%, rgba(255,209,166,1) 50%, rgba(255,209,166,0.6) 100%);
     visibility:hidden;
     /*display: flex;*/
-    overflow-x: scroll;
-    
+    overflow-x: hidden;
+
 }
 
 #cardDead{
@@ -71,7 +77,13 @@
     font-family: arial;
     margin:auto;
     display:block;
-    
+
+}
+.hist{
+  display: inline-block;
+  height:490px;
+  width: 300px;
+  margin:5px 10px;
 }
 .cardanimation{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -94,7 +106,7 @@
 #coverpic{
     margin: auto;
     border-radius: 3px;
-    
+
 }
 #charname{
     padding-top: 10px;
@@ -103,7 +115,7 @@
     color:black;
     text-shadow:
        3px 3px 0 rgb(255, 255, 255),
-     -1px -1px 0 rgb(255, 255, 255),  
+     -1px -1px 0 rgb(255, 255, 255),
       1px -1px 0 rgb(255, 255, 255),
       -1px 1px 0 rgb(255, 255, 255),
        1px 1px 0 rgb(255, 255, 255);
